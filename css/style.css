@@ -2501,3 +2501,40 @@ body {
   }
   
   
+
+  
+.icofont-close {
+  content: url("./images/faculty/close.png");
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+}
+.my_card{
+color: #ffff;
+border-radius: 20px;
+padding: 10px;
+margin: 20px 0;
+background-attachment: fixed;
+border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(16.8px);
+  -webkit-backdrop-filter: blur(16.8px);
+  border: 1px solid rgba(40, 87, 26, 1);
+}
+
+.my_card img{
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin-bottom: 20px;
+}
+
+
+
+
+.moretext {
+  display: none;
+}
+
+.bg_img_grn{
+  background: url("./images/faculty/plant-6917093_1280.jpg");
+}
