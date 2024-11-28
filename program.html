@@ -68,6 +68,99 @@
 
 
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <style>
+    
+
+
+.card {
+    position: relative;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 250px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+.card::before,
+.card::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #ff1717;
+    transition: all 0.5s ease;
+}
+
+.card::before {
+    top: 0;
+    left: 0;
+}
+
+.card::after {
+    bottom: 0;
+    right: 0;
+}
+
+.card:hover::before,
+.card:hover::after {
+    width: 100%;
+}
+
+.card:hover::before {
+    height: 100%;
+    width: 2px;
+    transition: width 0.5s ease, height 0.5s ease 0.5s;
+}
+
+.card:hover::after {
+    height: 100%;
+    width: 2px;
+    transition: width 0.5s ease, height 0.5s ease 0.5s;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.card-content p {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.card-content a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #0a58ca;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.card-content a:hover {
+    background: #0a58ca;
+}
+
+  </style>
 </head>
 
 <body>
@@ -206,336 +299,135 @@
 
       </div>
     </section>
+<section style="background-color: #6ea2f099;">
+  <div class="container">
+    <div class="row">
+       <div class="col-md-3">
 
+         <div class="card">
+             <!-- <img src="https://via.placeholder.com/250x150" alt="Online Classes"> -->
+             <div class="card-content">
+                 <h3>REGULAR DIPLOMA COURSES</h3>
+                 <p>Diploma in International Montessori Teacher Training incorporate .....</p>
+                 <a href="./regular_diploma.html">Read More</a>
+             </div>
+         </div>
+       </div>
+       <div class="col-md-3">
+         <div class="card">
+             
+             <div class="card-content">
+                 <h3>BACHELOR IN EDUCATION (B.ED.)</h3>
+                 <p>The  course  is  a  skill  training  based  program  which  is  focused  on  providing  all  the necessary... </p>
+                 <a href="./bachelor_of_education.html">Read More</a>
+             </div>
+         </div>
+       </div>
+       <div class="col-md-3">
 
-    <section class="working-process">
-      <div class="container">
+         <div class="card">
+             
+             <div class="card-content">
+                 <h3>ICM LONDON</h3>
+                 <p>ICM provides a wide range of professional qualifications in business, management and related vocational areas..</p>
+                 <a href="./icm_london.html">Read More</a>
+             </div>
+         </div>
+       </div>
+       <div class="col-md-3">
 
-        <div class="row">
-          <div class="accordion " id="accordionExample">
-            <div class="accordion-item mb-4">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  <span class="accordian-numbers">
-                    <h3>01.REGULAR DIPLOMA COURSES</h3>
-                  </span>
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <h5 style="color: red;">1. Diploma in International Montessori Teacher Training
-                  </h5>
-                  <p>Diploma in International Montessori Teacher Training incorporate the doctrines of the Montessori
-                    philosophy, theory and practice within the context of internationally recognized AMI benchmark
-                    standards. Our trained Montessori teachers know how to set up high quality prepared early learning
-                    environments for young children and moreover, they know why it is important. Our students acquire
-                    their teaching experience through many hours of carefully supervised practice with the Montessori
-                    materials/apparatus. As Montessori says, ‘what the hand does, the mind remembers’. This hands-on
-                    learning is extended over the duration of the course. The entire course content integrates these
-                    Montessori components of theory and practice around a central theme which is always to ‘Follow the
-                    Child’.</p>
-                  <ul>
-                    <h4>Who may do this course?</h4>
-                    <li> <b>Teachers</b> <br>
-                      This course is highly recommended for all teachers of kindergarten who wish to gain an
-                      up-gradation and emphasis on the developing child, building the human personality, and provide an
-                      inclusive high quality learning environment for children.
-                    </li>
+         <div class="card">
+             
+             <div class="card-content">
+                 <h3>SPEECH CRAFT PROGRAM</h3>
+                 <p>Speech craft’s short duration appeals to people with busy lives who want to improve their speaking...</p>
+                 <a href="#">Read More</a>
+             </div>
+         </div>
+       </div>
+       <div class="col-md-3">
 
-
-                    <li> <b> Students who aspire to start career as a Montessori Teacher</b> <br>
-                      As there is a large demand for trained Montessori Teachers Internationally, any student can make a
-                      very good career irrespective of their nationality. This is a supreme course for students who are
-                      interested in Montessori Teaching. The curriculum is designed as 70% Practical and 30% Theory so
-                      as to understand and implement the technology of Montessori.
-                    </li>
-
-
-                    <li>
-                       <b> Parents</b>
-                        <br>
-                        This course helps parents understand the behavioral changes and help in their learning disabilities to improve self-construction in a child. Thus as a parent, you can help the child to grow to his utmost potential as Montessori is an education for life.
-                    </li>
-
-                    <li>
-                      <b>Students who wish to start their own Montessori School</b>
-                       <br>
-                       The course includes a content on setting up a Montessori classroom or a Montessori School. Guidance and support is given to any students who have successfully completed the course and wish to start their own pre-school. 
-                   </li>
-                   <li>
-                    <b>Students who wish to start their own Montessori School</b>
-                     <br>
-                     The course includes a content on setting up a Montessori classroom or a Montessori School. Guidance and support is given to any students who have successfully completed the course and wish to start their own pre-school. 
-                 </li>
-
-                  </ul>
-
-                  <ul>
-                    <h5>Accreditation & Awarding Body: (for all 3 Diplomas)</h5>
-                    <li>	ISO 9001:2008 British Certifications Inc.No.15095</li>
-                    <li>Bharat Sevak Samaj (BSS) Approved, Govt. of India, Reg.No 0D/01/TN/2717</li>
-                    <li>Recognized and Accredited by the American International Accreditation Organization (AIAO)-USA</li>
-                    <li>
-                      Recognized by the Association for Early Childhood Education & Development (AECED)
-                    </li>
-                    <li>
-                      Recognized by All India Council of Education (AICE)
-                    </li>
-                    <li>
-                      Recognized by All India Association for Educational Research (AIAER)
-                    </li>
-                    <li>
-                      Recognized by the Indian Society for Training & Development (ISTD) and by PNMA – USA.
-                    </li>
-                    <li>
-                      Authorized study center for Maria Montessori Teacher Training (MMTT), India
-You may visit for more information to: <a href="www.mariamontessoriteachertraining.org">www.mariamontessoriteachertraining.org </a>
-                    </li>
-                    
-                  </ul>
-
-                  <ul>
-                    <h5>Course Segments</h5>
-                    <li>Life & Works of Maria Montessori</li>
-                    <li>Montessori Methodology</li>
-                    <li>Language Development of the Child</li>
-                    <li>Art of Story Telling and Rhymes</li>
-                    <li>Mathematical Concept Development</li>
-                    <li>EPL – Exercise of Practical Life</li>
-                    <li>Sensorial Education</li>
-                    <li>Child Psychology</li>
-                    <li>Child Psychology</li>
-                    <li>School Management</li>
-                    <li>Montessori Practical Activities, Albums & Records</li>
-
-                  </ul>
-                  <p style="border: 3px solid red; padding: 10px;">Note: The admission can be taken at any time of the year. Special classes are conducted to suit the students’ needs. </p>
-
-                  <br><br>
-                  <h5 style="color: red;">2.	Diploma in Childhood Education</h5>
-                  <p>Early childhood care and education (ECCE) refers to the development of care and education of children between zero and eight years old throughout history. 
-                    The role of 21st century teachers is evolving everyday with technological revolution seeping into all spheres of life including education and tremendous amount of importance is being given to early childhood education across the globe. The field of Pre-primary education has changed dramatically as educating tiny tots has brought in a bunch of challenges in today’s classrooms along with the rewards. Today’s pre-primary teachers are expected to adapt to their surroundings and foster a unique learning environment that has a positive impact on the children’s all round development.
-                  </p>
-                  <ul>
-                    <h6 style="color: #036;">Course Modules</h6>
-                    <ol>
-                      <span><b>Semester: 1</b></span>
-                      <li>Introduction to Early Childhood Education</li>
-                      <li>Characteristics of Quality Child Care Programs</li>
-                      <li>Stages of Development: Infants-Middle Childhood Years</li>
-                      <li>Importance of Play</li>
-                      <li>Principles and Approaches of Early Childhood Education</li>
-                      <li>The Learning Environment</li>
-                     
-                    </ol>
-                    <ol>
-                      <span><b>Semester: 2</b></span>
-                      <li>Role of Parents in Schooling</li>
-                      <li>Curriculum - Infant and Toddler, Preschooler</li>
-                      <li>Health, Nutrition and Safety</li>
-                      <li>The Educator</li>
-                      <li>Observation, Assessment and Guidance</li>
-                      <li>Management and Administration</li>
-                     
-                    </ol>
-                    <h6 style="color: #036;">Job Opportunities</h6>
-                    <p>There are opportunities for early childhood or preschool teachers who have complete training in early childhood education and care and have a passion to teach young learners. With the growing popularity of early childhood education, there is a considerable demand for certified teachers. Diploma in Early childhood care and Education (ECCE) opens many avenues to numerous job opportunities as the course aims to provide the future teachers with a strong foundation of the principles of early childhood education and care along with knowledge of planned teaching, offering variety of routes into teaching career.</p>
-
-                  </ul>
-                  <h5 style="color: red;">3.	Diploma in Special Education
-                  </h5>
-                  <p>To have a good idea on the most common form of disabilities like ADHD, Down’s syndrome, cerebral palsy, and Asperger’s syndrome this program will be apt for you. Special needs children suffer from quite a few emotional and behavioral issues which can only be addressed with a possible approach and better plan especially in their education process. The program has been specifically developed for teachers to understand the importance of all-inclusive learning atmosphere where in the candidates pursuing the course are acquainted with the characteristics of a SEN child so that they are able to identify them at an early stage; the early the signs and symptoms are identified, the more chances the child will have in discovering his potentialities and nurturing them. The course is meant to develop a thorough knowledge and understanding of the disabilities that the child may be facing and create empathy towards him/her and the family and help them to provide the best environment for child and bring them up as confident individuals.</p>
-
-                  <h6 style="color: #036;">Course Modules</h6>
-                  <ol>
-                    <span><b>Unit: I</b></span>
-                    <li>Introduction and practices in special education</li>
-                    <li>Identifying and supporting learners with special education needs</li>
-                    <li>Supporting learners with impairments:
-                      (a) Auditory and visual
-                      (b) Mental ‘retardation’/slowness
-          </li>
-          <li>Identifying various types of learning challenges</li>
-                  </ol>
-                  <ol>
-                    <span><b>Unit: II</b></span>
-                    <li>Creating Individual Education Plans</li>
-<li>Helping learners with reading comprehension</li>
-<li>Helping learners with mathematical reasoning</li>
-<li>Managing behaviors</li>
-<li>ADHD, Down’s syndrome, cerebral palsy, and Asperger’s syndrome </li>
-                  </ol>
-
-                  <h5 style="color: red;">4.Educational Leadership, Administration and Management Program
-                  </h5>
-<p>Course validity: International</p>
-<p>Programme: Regular Online Classes </p>
-<p>Classes are conducted through zoom. 
-  National Qualification Framework (NQF) qualification level 3 
-  </p>
-
-  <p><b>For whom?</b><br>School Leaders, 
-    Administrative Specialist (Curriculum, Staff Personal, etc,.) 
-    Coordinators,Supervisors and Candidates, who aspire to lead.
-       
-  </p>
-  <p><b>
-
-    Enhance Your Leadership Skills in Education!
-  </b><br>Are you eager to make a significant impact in schools? Do you dream of effectively managing and leading educational institutions? Our Educational Leadership, Administration, and Management Program is designed for you!
-  <b>Program Highlights: </b>This course provides you with the vital skills necessary for overseeing and managing various educational environments. You will delve into key concepts that enhance your ability to lead.
-</p>
-
-<h6 style="color: #036;">Learning Objectives:</h6>
-
-<ul>
-  <li><b>Vision Development:</b>	 Learn to create and execute a cohesive vision for teaching and learning that resonates with your school community.</li>
-  <li><b>Skills Integration:</b> Discover how to weave creativity, collaboration, communication, and critical thinking into educational standards.</li>
-  <li><b>Leadership Practice: </b>Gain hands-on experience to reflect on and refine your instructional leadership capabilities.</li>
-</ul>
-
-<ul>
-<h6 style="color: #036;">Learning Objectives:</h6>
-<li>Increase your confidence and readiness for administrative roles.</li>
-<li>Understand how to cultivate a nurturing environment for all students.</li>
-<li>Prepare yourself for higher leadership positions within educational organizations.</li>
-</ul>
-<p>If you're ready to advance your career in education, this tailored program is the ideal opportunity for you.</p>
-<p><b>Get in touch with us to find out more and embark on your journey toward becoming an educational leader!</b></p>
-<p><b>Program Objectives for the Educational Leadership, Administration, and Management Program</b></p>
-
-<ol>
-  <li><b>Develop Leadership Skills:</b>  Equip candidates with the essential leadership skills necessary for effective management and administration in diverse educational settings.</li>
-
-  <li><b>Articulate a Vision: </b>  Enable participants to create, communicate, and implement a shared vision for teaching and learning that fosters a supportive school community.</li>
-
-  <li><b>Integrate Key Competencies: </b>  Promote the integration of creativity, collaboration, communication, and critical thinking into educational practices and content standards.</li>
-
-  <li><b>Enhance Instructional Leadership:</b>  Provide opportunities for candidates to learn, practice, and reflect on their roles as instructional leaders, ensuring effective teaching and learning outcomes.</li>
-
-
-  <li><b>Foster Community Engagement: </b>  Prepare participants to engage and collaborate with various stakeholders, including parents, teachers, and community members, to support student success.</li>
-
-
-  <li><b>Cultivate Reflective Practice:</b>  : Encourage a mindset of continuous improvement through reflection on personal leadership practices and outcomes.</li>
-
-
-  <li><b>Prepare for Senior Roles: </b>  Equip candidates with the knowledge and skills needed to take on senior leadership positions within educational institutions.</li>
-
-
-  <li><b>8.	Adapt to Diverse Contexts: </b>  Train participants to understand and address the unique challenges and opportunities within urban and diverse educational environments.</li>
-
-</ol>
-<div style="border: 2px solid red;">
-  <h6 style="color: #036;">Learning Objectives:</h6>
-  <ol>
-    <span><b>Semester: 1</b></span>
-    <li>LAM101 EDUCATIONAL LEADERSHIP</li>
-    <li>LAM102 HUMAN RELATIONS IN EDUCATIONAL ADMINISTRATION</li>
-    <li>LAM103 SCHOOL MANAGEMENT</li>
-    <li>LAM104 COMPONENTS OF EDUCATIONAL ADMINISTRATION</li>
-    <li>LAM105 DECISION MAKING</li>
-    <li>LAM201 TEACHER APPRAISAL TO IMPROVE LEARNING</li>
-
-  </ol>
-  <ol>
-    <span><b>Semester: 2</b></span>
-    <li>LAM202 CURRICULUM ISSUES</li>
-    <li>LAM203 EDUCATIONAL INSTRUCTIVE SUPERVISION</li>
-
-  </ol>
-</div>
-                </div>
-              </div>
+        <div class="card">
+           
+            <div class="card-content">
+                <h3>Study in UK - World Class UK Public Universities</h3>
+                <p>Internationally recognized universities & qualifications,Select from more than 400 different subjects...</p>
+                <a href="./study_in_uk.html">Read More</a>
             </div>
-
-
-            <div class="accordion-item mb-4">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  <span class="accordian-numbers">02</span> Research and Strategy Development
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  During the initial consultation, we will discuss your business goals and objectives, target audience,
-                  and current marketing efforts. This will allow us to understand your needs and tailor our services to
-                  best fit your requirements.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item mb-4">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  <span class="accordian-numbers">03</span> Implementation
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  During the initial consultation, we will discuss your business goals and objectives, target audience,
-                  and current marketing efforts. This will allow us to understand your needs and tailor our services to
-                  best fit your requirements.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item mb-4">
-              <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  <span class="accordian-numbers">04</span> Monitoring and Optimization
-                </button>
-              </h2>
-              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  During the initial consultation, we will discuss your business goals and objectives, target audience,
-                  and current marketing efforts. This will allow us to understand your needs and tailor our services to
-                  best fit your requirements.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item mb-4">
-              <h2 class="accordion-header" id="headingFive">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                  <span class="accordian-numbers">05</span> Reporting and Communication
-                </button>
-              </h2>
-              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  During the initial consultation, we will discuss your business goals and objectives, target audience,
-                  and current marketing efforts. This will allow us to understand your needs and tailor our services to
-                  best fit your requirements.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item mb-4">
-              <h2 class="accordion-header" id="headingSix">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                  <span class="accordian-numbers">06</span> Continual Improvement
-                </button>
-              </h2>
-              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  During the initial consultation, we will discuss your business goals and objectives, target audience,
-                  and current marketing efforts. This will allow us to understand your needs and tailor our services to
-                  best fit your requirements.
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
-    </section>
+
+      <div class="col-md-3">
+
+        <div class="card">
+            
+            <div class="card-content">
+                <h3>Open Schooling for 10th, 11th and 12th</h3>
+                <p>Here is an opportunity for flexible learning at Aldhaas Montessori International. It is a Lifelong Learning to acquire knowledge ...</p>
+                <a href="./open_schooling.html">Read More</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+
+        <div class="card">
+          
+            <div class="card-content">
+                <h3>FIRE AND SAFETY COURSES</h3>
+                <p>UGC, AICTE, DEB, Ministry of HRD, Govt. of India Approved University Courses. Fire Engineering and Industrial Safety...</p>
+                <a href="./fire_and _safety.html">Read More</a>
+            </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-3">
+
+        <div class="card">
+          
+            <div class="card-content">
+                <h3>Counselling & Guidance Courses</h3>
+                <p>Diploma in Counselling - ICM – UK
+
+                  University Courses:
+                  
+                  PG Diploma in Counselling and Guidance
+                  ...</p>
+                <a href="./counselling_and_guidance.html">Read More</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+
+        <div class="card">
+          
+            <div class="card-content">
+                <h3>Computer Courses</h3>
+                <p>Digital revolution has become inevitable at all spheres of life. We implant wider knowledge   of computer in...</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+
+        <div class="card">
+          
+            <div class="card-content">
+                <h3>Language Courses (English, Arabic, French, Tamil, Malayalam, Hindi)</h3>
+                <p>To learn the language or simply to improve your grades in school...</p>
+                <a href="./language _courses.html">Read More</a>
+            </div>
+        </div>
+      </div>
+
+      
+    </div>
+</div>
+</section>
+
 
     <br />
 
