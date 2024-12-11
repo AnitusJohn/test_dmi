@@ -10,6 +10,7 @@
 --------------------------------------------------------------*/
 body {
     font-family: "Open Sans", sans-serif;
+    
     color: #444444;
   }
   
@@ -112,7 +113,8 @@ body {
     padding: 20px 0;
     -webkit-box-shadow: inset 1px 0px 39px 6px rgba(66, 68, 90, 1);
 -moz-box-shadow: inset 1px 0px 39px 6px rgba(66, 68, 90, 1);
-box-shadow: inset 1px 0px 39px 6px rgba(66, 68, 90, 1);
+
+box-shadow: inset 1px 0px 39px 6px rgb(3, 168, 248);
   }
   
   #header.header-scrolled {
@@ -136,7 +138,7 @@ box-shadow: inset 1px 0px 39px 6px rgba(66, 68, 90, 1);
   }
   
   #header .logo img {
-    max-height: 105px;
+    max-height: 50px;
   }
   
   @media (max-width: 992px) {
@@ -177,7 +179,13 @@ box-shadow: inset 1px 0px 39px 6px rgba(66, 68, 90, 1);
   }
   
   .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-    color: #2a489c !important;
+    color: #f15962  !important;
+    font-weight: 700;
+    /* border-bottom: 2px solid #18d26e; */
+  }
+  .nav-menu a:hover{
+    border-bottom: 3px solid #18d26e;
+
   }
   
   .nav-menu .drop-down ul {
@@ -393,6 +401,9 @@ box-shadow: inset 1px 0px 39px 6px rgba(66, 68, 90, 1);
     opacity: 1;
     visibility: visible;
   }
+  .mobile-nav ul li:nth-child(1){
+margin-top: 20px;
+  }
   
   .mobile-nav-active .mobile-nav-toggle i {
     color: #fff;
@@ -582,6 +593,7 @@ box-shadow: inset 1px 0px 39px 6px rgba(66, 68, 90, 1);
     }
   }
   
+
   /*--------------------------------------------------------------
   # Sections General
   --------------------------------------------------------------*/
@@ -594,7 +606,7 @@ box-shadow: inset 1px 0px 39px 6px rgba(66, 68, 90, 1);
   }
   
   .section-title {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
   }
   
   .section-title h2 {
@@ -2503,9 +2515,15 @@ box-shadow: inset 1px 0px 39px 6px rgba(66, 68, 90, 1);
     display: none;
   }
   
-  
+  .card-content a{
+    background: rgb(0,10,36);
+    background: linear-gradient(151deg, rgba(0,10,36,1) 0%, rgba(247,9,9,1) 30%, rgba(0,212,255,1) 94%) !important;  }
 
-  
+    .card-content a:hover{
+      color: wheat;
+      background: rgb(0,10,36);
+background: linear-gradient(151deg, rgba(0,10,36,1) 0%, rgba(247,9,9,1) 15%, rgba(0,212,255,1) 59%);
+    }
 .icofont-close {
   content: url("./images/faculty/close.png");
   width: 50px;
